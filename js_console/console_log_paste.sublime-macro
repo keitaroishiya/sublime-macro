@@ -1,0 +1,11 @@
+[
+	{ "args": {"to": "word"}, "command": "expand_selection" },
+	{ "args": null, "command": "copy" },
+	{ "args": { "to": "eol" }, "command": "move_to" },
+	{ "args": { "characters": "\n" }, "command": "insert" },
+	{ "args": { "characters": "console.log('" }, "command": "insert" },
+	{ "args": null, "command": "paste" },
+	{ "args": { "characters": ": ' + " }, "command": "insert" },
+	{ "args": null, "command": "paste" },
+	{ "args": { "characters": ");\n" }, "command": "insert" }
+]

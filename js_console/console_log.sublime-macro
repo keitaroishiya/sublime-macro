@@ -1,0 +1,11 @@
+[
+	{ "args": { "to": "eol" }, "command": "move_to" },
+	{ "args": { "characters": "\n" }, "command": "insert" },
+	{
+		"args": 
+		{
+			"contents": "console.log('${0:$SELECTION}: ' + ${0:$SELECTION});\n"
+		},
+		"command": "insert_snippet"
+	}
+]
