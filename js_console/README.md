@@ -7,7 +7,7 @@ Macro files and key setting for Sublime Text 2 to generate console.log() automat
 console.log("word:" word);
 
 [super+shift+alt+l] generate just
-console.log(":" );
+console.log(": " + );
 
 
 ##Activation
